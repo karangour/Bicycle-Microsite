@@ -1,0 +1,40 @@
+{
+  "Verticals": {
+    "Travel": {
+      "path": "assets/verticals/travel.svg",
+      "subverticals": {
+        "Aviation": "assets/verticals/subverticals/aviation.svg",
+        "Hospitality": "assets/verticals/subverticals/hospitality.svg",
+        "Platform": "assets/verticals/subverticals/platform.svg",
+        "Insurance": "assets/verticals/subverticals/insurance.svg"
+      }
+    },
+    "Fintech": {
+      "path": "assets/verticals/fintech.svg",
+      "subverticals": {
+        "Payments": "assets/verticals/subverticals/payments.svg",
+        "Credits": "assets/verticals/subverticals/credits.svg",
+        "Banking": "assets/verticals/subverticals/banking.svg",
+        "Investments": "assets/verticals/subverticals/investments.svg"
+      }
+    },
+    "Retail": {
+      "path": "assets/verticals/retail.svg",
+      "subverticals": {
+        "E-commerce": "assets/verticals/subverticals/e-commerce.svg",
+        "Entertainment": "assets/verticals/subverticals/entertainment.svg",
+        "POS": "assets/verticals/subverticals/pos.svg",
+        "Food": "assets/verticals/subverticals/food.svg"
+      }
+    },
+    "Others": {
+      "path": "assets/verticals/others.svg",
+      "subverticals": {
+        "Logistics": "assets/verticals/subverticals/logistics.svg",
+        "Telecom": "assets/verticals/subverticals/telecom.svg",
+        "Saas": "assets/verticals/subverticals/saas.svg",
+        "Platforms": "assets/verticals/subverticals/platforms.svg"
+      }
+    }
+  }
+}
