@@ -1,0 +1,21 @@
+{
+  "heading": "Overcoming OTA-Specific Challenges",
+  "subheading": "As an OTA, you're inundated with data from bookings, suppliers, payments, and customer interactions. Yet, turning this fragmented information into meaningful action is a struggle. Common hurdles include:",
+  "examples": [
+    {
+      "title": "Data Silos",
+      "description": "Booking systems, supplier databases, and customer platforms don't communicate seamlessly, making it tough to get a unified view.",
+      "icon": ""
+    },
+    {
+      "title": "Real-Time Issue Detection",
+      "description": "Identifying booking errors, supplier failures, or payment declines as they happen is critical but challenging.",
+      "icon": ""
+    },
+    {
+      "title": "Actionable Insights Lacking",
+      "description": "Traditional tools show what happened but not why, leaving teams guessing about root causes.",
+      "icon": ""
+    }
+  ]
+}
