@@ -1,6 +1,7 @@
 import Title from "./components/Title";
 import { Slant } from "./components/Slant";
 import UseCaseIntro from "./components/UseCaseIntro";
+import UseCaseMain from "./components/UseCaseMain";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <div className="z-20">
         <UseCaseIntro />
       </div>
+      <UseCaseMain />
     </main>
   );
 }

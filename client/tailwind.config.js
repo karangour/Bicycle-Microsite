@@ -11,11 +11,13 @@ export default {
         'green': '#00C19F',
         'dark-grey': '#30353D',
         'light-grey': '#EBEFF0',
+        'text-grey' : '#696D77',
         'text-black': '#262A36'
       },
       fontFamily: {
         'title': ['Lexend', 'sans-serif'],
-        'body': ['Lexend Deca', 'sans-serif']
+        'body': ['Lexend Deca', 'sans-serif'],
+        'outfit': ['Outfit', 'sans-serif']
       },
       fontWeight: {
         'normal': 400,

@@ -15,7 +15,7 @@ function Title() {
 
   return (
     <div className="bg-dark-grey">
-      <header className="max-w-[1440px] mx-auto px-5 py-8">
+      <header className="max-w-[1282px] mx-auto px-5 py-8">
         <nav className="flex justify-between items-center">
           <div>
             <img src={logo} alt="Bicycle Logo" className="w-[190px]" />
