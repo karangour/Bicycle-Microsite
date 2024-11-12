@@ -8,7 +8,7 @@
             "solution": "Bicycle automates inventory tracking, detecting low stock levels in real-time and providing predictive restocking insights based on demand patterns, ensuring optimal inventory levels are maintained.",
             "screenshots": [
                 {
-                    "icon": "path/to/your/icon1.svg",
+                    "icon": "faBoxes",
                     "title": "Inventory Dashboard",
                     "description": "Displays real-time inventory across all locations with low-stock alerts.",
                     "datapoint1": "Current stock levels",
@@ -16,13 +16,21 @@
                     "datapoint3": "Restocking suggestions"
                 },
                 {
-                    "icon": "path/to/your/icon2.svg",
+                    "icon": "faChartLine",
                     "title": "Predictive Restocking",
                     "description": "Analyzes past data to forecast future demand, suggesting optimal stock levels.",
                     "datapoint1": "Weekly stock trends",
                     "datapoint2": "Predicted shortages",
                     "datapoint3": "Demand forecast accuracy",
                     "datapoint4": "Restocking recommendations"
+                },
+                {
+                    "icon": "faCalendarAlt",
+                    "title": "Supply Schedule Overview",
+                    "description": "Displays upcoming deliveries and restocking schedules to ensure stock availability.",
+                    "datapoint1": "Next delivery dates",
+                    "datapoint2": "Supplier lead times",
+                    "datapoint3": "Stock arrival confirmations"
                 }
             ]
         },
@@ -32,7 +40,7 @@
             "solution": "Bicycle monitors delivery routes and performance, providing insights to reduce delays and improve delivery accuracy.",
             "screenshots": [
                 {
-                    "icon": "path/to/your/icon3.svg",
+                    "icon": "faTruck",
                     "title": "Delivery Tracking Dashboard",
                     "description": "Tracks real-time delivery performance across all regions.",
                     "datapoint1": "Average delivery times",
@@ -40,12 +48,20 @@
                     "datapoint3": "On-time delivery rate"
                 },
                 {
-                    "icon": "path/to/your/icon4.svg",
+                    "icon": "faRoute",
                     "title": "Route Optimization Insights",
                     "description": "Suggests optimized delivery routes to reduce travel time and fuel costs.",
                     "datapoint1": "Fuel savings",
                     "datapoint2": "Reduced delivery times",
                     "datapoint3": "Cost per delivery"
+                },
+                {
+                    "icon": "faMapMarkerAlt",
+                    "title": "Delivery Zone Analysis",
+                    "description": "Highlights delivery times and patterns within specific regions for better planning.",
+                    "datapoint1": "Zone-specific delivery times",
+                    "datapoint2": "High-traffic zones",
+                    "datapoint3": "Time-saving opportunities"
                 }
             ]
         },
@@ -55,7 +71,7 @@
             "solution": "Bicycle collects and analyzes customer feedback, identifying key pain points and opportunities to enhance the customer journey.",
             "screenshots": [
                 {
-                    "icon": "path/to/your/icon5.svg",
+                    "icon": "faComments",
                     "title": "Feedback Analysis",
                     "description": "Analyzes customer feedback to identify common issues and satisfaction trends.",
                     "datapoint1": "Top complaints",
@@ -63,13 +79,21 @@
                     "datapoint3": "Resolution times"
                 },
                 {
-                    "icon": "path/to/your/icon6.svg",
+                    "icon": "faMapSigns",
                     "title": "Customer Journey Mapping",
                     "description": "Maps out the customer journey to highlight areas for improvement.",
                     "datapoint1": "Touchpoint analysis",
                     "datapoint2": "Experience ratings",
                     "datapoint3": "Satisfaction trends",
                     "datapoint4": "Improvement opportunities"
+                },
+                {
+                    "icon": "faGrin",
+                    "title": "Satisfaction Metrics Dashboard",
+                    "description": "Tracks overall satisfaction levels and customer feedback responses.",
+                    "datapoint1": "Customer satisfaction score",
+                    "datapoint2": "Feedback turnaround times",
+                    "datapoint3": "Net Promoter Score (NPS)"
                 }
             ]
         }
@@ -81,7 +105,7 @@
             "solution": "Using AI-driven insights, Bicycle analyzes data to detect operational bottlenecks and recommends strategies to streamline processes.",
             "screenshots": [
                 {
-                    "icon": "path/to/your/icon7.svg",
+                    "icon": "faChartPie",
                     "title": "Efficiency Dashboard",
                     "description": "Displays real-time efficiency metrics and highlights areas with high downtime.",
                     "datapoint1": "Process bottlenecks",
@@ -89,13 +113,21 @@
                     "datapoint3": "Average downtime per process"
                 },
                 {
-                    "icon": "path/to/your/icon8.svg",
+                    "icon": "faDollarSign",
                     "title": "Cost Analysis",
                     "description": "Provides insights on cost-saving opportunities across operations.",
                     "datapoint1": "Cost-saving potential",
                     "datapoint2": "Efficiency gain",
                     "datapoint3": "Budget impact analysis",
                     "datapoint4": "Expense reduction forecasts"
+                },
+                {
+                    "icon": "faBusinessTime",
+                    "title": "Productivity Metrics",
+                    "description": "Monitors productivity KPIs across departments for targeted improvements.",
+                    "datapoint1": "Productivity per team",
+                    "datapoint2": "Task completion times",
+                    "datapoint3": "Resource utilization"
                 }
             ]
         },
@@ -105,7 +137,7 @@
             "solution": "Bicycle leverages AI to track product performance, customer feedback, and market trends, identifying underperforming products and areas for improvement.",
             "screenshots": [
                 {
-                    "icon": "path/to/your/icon9.svg",
+                    "icon": "faBoxOpen",
                     "title": "Product Dashboard",
                     "description": "Aggregates product performance data across regions.",
                     "datapoint1": "Sales by region",
@@ -113,7 +145,7 @@
                     "datapoint3": "Return rates"
                 },
                 {
-                    "icon": "path/to/your/icon10.svg",
+                    "icon": "faChartArea",
                     "title": "Trend Analysis",
                     "description": "Tracks demand fluctuations and predicts future performance.",
                     "datapoint1": "Demand trendline",
@@ -121,12 +153,12 @@
                     "datapoint3": "Product improvement recommendations"
                 },
                 {
-                    "icon": "path/to/your/icon11.svg",
-                    "title": "Market Comparison",
-                    "description": "Compares product performance against market averages.",
+                    "icon": "faGlobe",
+                    "title": "Market Insights",
+                    "description": "Compares product performance against market benchmarks and competitor analysis.",
                     "datapoint1": "Market share",
-                    "datapoint2": "Competitive analysis",
-                    "datapoint3": "Customer satisfaction index"
+                    "datapoint2": "Competitive product ratings",
+                    "datapoint3": "Regional demand patterns"
                 }
             ]
         },
@@ -136,7 +168,7 @@
             "solution": "Bicycle provides AI-driven alerts for compliance risks and suggests actions to mitigate regulatory issues based on data trends.",
             "screenshots": [
                 {
-                    "icon": "path/to/your/icon12.svg",
+                    "icon": "faShieldAlt",
                     "title": "Compliance Dashboard",
                     "description": "Monitors regulatory compliance metrics across business units.",
                     "datapoint1": "Compliance status",
@@ -144,12 +176,20 @@
                     "datapoint3": "Pending issues"
                 },
                 {
-                    "icon": "path/to/your/icon13.svg",
+                    "icon": "faExclamationTriangle",
                     "title": "Risk Mitigation Insights",
                     "description": "Recommends actions based on identified risk factors.",
                     "datapoint1": "Mitigation strategies",
                     "datapoint2": "Risk reduction potential",
                     "datapoint3": "Compliance improvement"
+                },
+                {
+                    "icon": "faUniversity",
+                    "title": "Regulatory Update Tracker",
+                    "description": "Tracks changes in regulatory requirements and highlights areas of non-compliance.",
+                    "datapoint1": "New compliance rules",
+                    "datapoint2": "Affected operations",
+                    "datapoint3": "Urgency indicators"
                 }
             ]
         }

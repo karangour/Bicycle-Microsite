@@ -6,9 +6,27 @@ export default {
   ],
   theme: {
     extend: {
+      letterSpacing: {
+        '-1.1': '-1.1%',
+      },
+      keyframes: {
+        slideLeft: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0)' },
+        },
+        slideOutLeft: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+      },
+      animation: {
+        slideInLeft: 'slideLeft 0.5s ease-in-out forwards',
+        slideOutLeft: 'slideOutLeft 0.5s ease-in-out forwards',
+      },
       colors: {
         'red': '#F74761',
         'green': '#00C19F',
+        'grey' : '#D9D9D9',
         'dark-grey': '#30353D',
         'light-grey': '#EBEFF0',
         'text-grey' : '#696D77',
