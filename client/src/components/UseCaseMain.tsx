@@ -147,10 +147,10 @@ const UseCaseMain: React.FC = () => {
         {useCases.map((useCase, index) => (
           <div
             key={index}
-            className="bg-grey-50 border border-grey rounded-lg w-full mb-[24px]"
+            className="w-full mb-[24px]"
           >
             <div
-              className="flex items-center justify-between px-6 py-4 border-b border-grey cursor-pointer"
+                    className={`flex items-center justify-between px-6 py-4 border border-grey bg-light-grey cursor-pointer ${openIndex === index ? 'rounded-tl-xl rounded-tr-xl' : 'rounded-xl'}`}
               onClick={() => toggleAccordion(index)}
             >
               <h3 className="text-2xl text-text-black font-bold">

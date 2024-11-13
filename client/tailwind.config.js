@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       letterSpacing: {
-        '-1.1': '-1.1%',
+        'negative-1.1': '-1.1%',
       },
       keyframes: {
         slideLeft: {

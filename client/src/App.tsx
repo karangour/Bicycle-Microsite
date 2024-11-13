@@ -2,6 +2,7 @@ import Title from "./components/Title";
 import { Slant } from "./components/Slant";
 import UseCaseIntro from "./components/UseCaseIntro";
 import UseCaseMain from "./components/UseCaseMain";
+import FeaturesMain from "./components/FeaturesMain";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <UseCaseIntro />
       </div>
       <UseCaseMain />
+      <FeaturesMain />
     </main>
   );
 }
