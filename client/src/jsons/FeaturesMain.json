@@ -1,0 +1,130 @@
+{
+    "heading": "Key Features Tailored for Success",
+    "description": "Explore Bicycle's powerful features designed to enhance operational efficiency and drive growth. From seamless integrations to real-time analytics, each tool transforms data into actionable insights, empowering businesses to make informed decisions and boost performance.",
+    "pillars": [
+      {
+        "title": "Auto Onboarding",
+        "feature": [
+          {
+            "title": "1-click data onboarding",
+            "description": "Ingest data seamlessly with hundreds of integrations. Bicycle’s LLM-powered engine auto-discovers relationships using built-in industry context.",
+            "screenshot": {
+              "icon": "faDatabase",
+              "title": "Data Onboarding Screenshot",
+              "description": "A preview showing seamless data onboarding with Bicycle.",
+              "datapoint1": "100+ integrations",
+              "datapoint2": "LLM-powered relationship discovery",
+              "datapoint3": "Industry-specific insights"
+            }
+          },
+          {
+            "title": "Use-case Sharing",
+            "description": "Easily share tailored use-case configurations across teams for faster deployment.",
+            "screenshot": {
+              "icon": "faShareAlt",
+              "title": "Use-case Sharing Screenshot",
+              "description": "An example of how teams can collaborate on use-case sharing.",
+              "datapoint1": "Cross-team collaboration",
+              "datapoint2": "Faster deployment",
+              "datapoint3": "Customizable templates"
+            }
+          },
+          {
+            "title": "Business Insights for All",
+            "description": "Deliver actionable insights to stakeholders across all levels of the organization.",
+            "screenshot": {
+              "icon": "faChartLine",
+              "title": "Insights Dashboard Screenshot",
+              "description": "A visual representation of key business insights.",
+              "datapoint1": "Real-time dashboards",
+              "datapoint2": "Role-based access",
+              "datapoint3": "Data-driven decisions"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Seamless Integrations",
+        "feature": [
+          {
+            "title": "Pre-built Connectors",
+            "description": "Access pre-built connectors for a wide range of third-party tools.",
+            "screenshot": {
+              "icon": "faPlug",
+              "title": "Integration Connectors Screenshot",
+              "description": "A demonstration of available pre-built connectors.",
+              "datapoint1": "50+ pre-built connectors",
+              "datapoint2": "API integrations",
+              "datapoint3": "Plug-and-play setup"
+            }
+          },
+          {
+            "title": "Custom Integration Options",
+            "description": "Leverage APIs for building custom integrations suited to unique workflows.",
+            "screenshot": {
+              "icon": "faCogs",
+              "title": "Custom Integration Screenshot",
+              "description": "How custom workflows are created with API support.",
+              "datapoint1": "Developer-friendly APIs",
+              "datapoint2": "Secure data handling",
+              "datapoint3": "Custom workflow automation"
+            }
+          },
+          {
+            "title": "Continuous Sync",
+            "description": "Keep your data synchronized in real time across platforms.",
+            "screenshot": {
+              "icon": "faSyncAlt",
+              "title": "Syncing in Action Screenshot",
+              "description": "An overview of real-time syncing capabilities.",
+              "datapoint1": "Real-time updates",
+              "datapoint2": "Cross-platform consistency",
+              "datapoint3": "Zero lag synchronization"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Advanced Analytics",
+        "feature": [
+          {
+            "title": "Predictive Analytics",
+            "description": "Utilize predictive models to anticipate trends and make proactive decisions.",
+            "screenshot": {
+              "icon": "faChartPie",
+              "title": "Predictive Analytics Screenshot",
+              "description": "Visualizations of trends and predictive insights.",
+              "datapoint1": "AI-powered models",
+              "datapoint2": "Trend forecasting",
+              "datapoint3": "Proactive decision-making"
+            }
+          },
+          {
+            "title": "Customizable Dashboards",
+            "description": "Design dashboards that fit your business needs and preferences.",
+            "screenshot": {
+              "icon": "faThLarge",
+              "title": "Custom Dashboards Screenshot",
+              "description": "Examples of customizable dashboard views.",
+              "datapoint1": "Drag-and-drop interface",
+              "datapoint2": "Multiple data sources",
+              "datapoint3": "Personalized views"
+            }
+          },
+          {
+            "title": "Real-time Alerts",
+            "description": "Receive instant alerts for key metrics and anomalies.",
+            "screenshot": {
+              "icon": "faBell",
+              "title": "Real-time Alerts Screenshot",
+              "description": "An example of real-time alerting in action.",
+              "datapoint1": "Customizable thresholds",
+              "datapoint2": "Instant notifications",
+              "datapoint3": "Critical issue flagging"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  
