@@ -1,0 +1,25 @@
+{
+  "testimonials": [
+    {
+      "icon": "assets/testimonials/urbanpiper.svg",
+      "text": "“With over 35,000 restaurant locations leveraging the UrbanPiper software and processing millions of orders every week, Bicycle has been pivotal in our approach to data-driven decision-making.”",
+      "name": "Saurabh Gupta",
+      "designation": "Co-Founder/CEO, UrbanPiper",
+      "photo": "assets/testimonials/urbanpiper_photo.svg"
+    },
+    {
+      "icon": "assets/testimonials/zomato.svg",
+      "text": "“Bicycle’s real-time analytics have been instrumental in helping us optimize delivery routes, reducing delays by 25% and improving overall customer satisfaction. The insights provided are unmatched in their depth and usability.”",
+      "name": "Deepinder Goyal",
+      "designation": "Founder & CEO, Zomato",
+      "photo": "assets/testimonials/zomato_photo.svg"
+    },
+    {
+      "icon": "assets/testimonials/flipkart.svg",
+      "text": "“The integration capabilities of Bicycle allowed us to seamlessly connect multiple data sources. This has not only improved operational efficiency but also empowered our teams to make data-driven decisions at every level.”",
+      "name": "Kalyan Krishnamurthy",
+      "designation": "CEO, Flipkart",
+      "photo": "assets/testimonials/flipkart_photo.svg"
+    }
+  ]
+}

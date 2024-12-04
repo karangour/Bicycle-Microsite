@@ -1,0 +1,1332 @@
+{
+  "Travel": {
+    "title": {
+      "heading": "Bicycle for Online Travel Agencies (OTAs)",
+      "description": "Transform your OTA data into actionable insights with Bicycle's 24/7 Analyst Copilot designed specifically for the travel industry.",
+      "heroimage": "assets/verticals/travel.svg"
+    },
+
+    "usecase": {
+      "intro": {
+        "heading": "Overcoming OTA-Specific Challenges",
+        "subheading": "As an OTA, you're inundated with data from bookings, suppliers, payments, and customer interactions. Yet, turning this fragmented information into meaningful action is a struggle. Common hurdles include:",
+        "examples": [
+          {
+            "title": "Data Silos",
+            "description": "Booking systems, supplier databases, and customer platforms don't communicate seamlessly, making it tough to get a unified view.",
+            "icon": "faDatabase"
+          },
+          {
+            "title": "Real-Time Issue Detection",
+            "description": "Identifying booking errors, supplier failures, or payment declines as they happen is critical but challenging.",
+            "icon": "faExclamationCircle"
+          },
+          {
+            "title": "Actionable Insights Lacking",
+            "description": "Traditional tools show what happened but not why, leaving teams guessing about root causes.",
+            "icon": "faLightbulb"
+          }
+        ]
+      },
+      "main": {
+        "heading": "How Bicycle Empowers OTAs",
+        "subheading": "Bicycle bridges the gap between your vast data and the actionable insights needed to enhance performance and customer satisfaction.",
+        "data": [
+          {
+            "title": "Real-Time Inventory Management",
+            "problem": "Challenges with managing inventory across multiple dark stores, leading to potential stockouts and missed sales opportunities.",
+            "solution": "Bicycle automates inventory tracking, detecting low stock levels in real-time and providing predictive restocking insights based on demand patterns, ensuring optimal inventory levels are maintained.",
+            "screenshots": [
+              {
+                "icon": "faBoxes",
+                "title": "Inventory Dashboard",
+                "description": "Displays real-time inventory across all locations with low-stock alerts.",
+                "datapoint": [
+                  "Current stock levels",
+                  "Low-stock notifications",
+                  "Restocking suggestions"
+                ]
+              },
+              {
+                "icon": "faChartLine",
+                "title": "Predictive Restocking",
+                "description": "Analyzes past data to forecast future demand, suggesting optimal stock levels.",
+                "datapoint": [
+                  "Weekly stock trends",
+                  "Predicted shortages",
+                  "Demand forecast accuracy",
+                  "Restocking recommendations"
+                ]
+              },
+              {
+                "icon": "faCalendarAlt",
+                "title": "Supply Schedule Overview",
+                "description": "Displays upcoming deliveries and restocking schedules to ensure stock availability.",
+                "datapoint": [
+                  "Next delivery dates",
+                  "Supplier lead times",
+                  "Stock arrival confirmations"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Delivery Performance Monitoring",
+            "problem": "Inefficiencies in tracking and optimizing delivery times lead to delayed orders and dissatisfied customers.",
+            "solution": "Bicycle monitors delivery routes and performance, providing insights to reduce delays and improve delivery accuracy.",
+            "screenshots": [
+              {
+                "icon": "faTruck",
+                "title": "Delivery Tracking Dashboard",
+                "description": "Tracks real-time delivery performance across all regions.",
+                "datapoint": [
+                  "Average delivery times",
+                  "Late delivery alerts",
+                  "On-time delivery rate"
+                ]
+              },
+              {
+                "icon": "faRoute",
+                "title": "Route Optimization Insights",
+                "description": "Suggests optimized delivery routes to reduce travel time and fuel costs.",
+                "datapoint": [
+                  "Fuel savings",
+                  "Reduced delivery times",
+                  "Cost per delivery"
+                ]
+              },
+              {
+                "icon": "faMapMarkerAlt",
+                "title": "Delivery Zone Analysis",
+                "description": "Highlights delivery times and patterns within specific regions for better planning.",
+                "datapoint": [
+                  "Zone-specific delivery times",
+                  "High-traffic zones",
+                  "Time-saving opportunities"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Customer Experience Enhancement",
+            "problem": "Lack of insights into customer preferences and experiences limits the ability to improve satisfaction.",
+            "solution": "Bicycle collects and analyzes customer feedback, identifying key pain points and opportunities to enhance the customer journey.",
+            "screenshots": [
+              {
+                "icon": "faComments",
+                "title": "Feedback Analysis",
+                "description": "Analyzes customer feedback to identify common issues and satisfaction trends.",
+                "datapoint": [
+                  "Top complaints",
+                  "Customer sentiment",
+                  "Resolution times"
+                ]
+              },
+              {
+                "icon": "faMapSigns",
+                "title": "Customer Journey Mapping",
+                "description": "Maps out the customer journey to highlight areas for improvement.",
+                "datapoint": [
+                  "Touchpoint analysis",
+                  "Experience ratings",
+                  "Satisfaction trends",
+                  "Improvement opportunities"
+                ]
+              },
+              {
+                "icon": "faGrin",
+                "title": "Satisfaction Metrics Dashboard",
+                "description": "Tracks overall satisfaction levels and customer feedback responses.",
+                "datapoint": [
+                  "Customer satisfaction score",
+                  "Feedback turnaround times",
+                  "Net Promoter Score (NPS)"
+                ]
+              }
+            ]
+          }
+        ],
+
+        "business": [
+          {
+            "title": "Operational Efficiency Analysis",
+            "problem": "Difficulty in identifying inefficiencies across operational processes, leading to increased costs and delays.",
+            "solution": "Using AI-driven insights, Bicycle analyzes data to detect operational bottlenecks and recommends strategies to streamline processes.",
+            "screenshots": [
+              {
+                "icon": "faChartPie",
+                "title": "Efficiency Dashboard",
+                "description": "Displays real-time efficiency metrics and highlights areas with high downtime.",
+                "datapoint": [
+                  "Process bottlenecks",
+                  "Operational delays",
+                  "Average downtime per process"
+                ]
+              },
+              {
+                "icon": "faDollarSign",
+                "title": "Cost Analysis",
+                "description": "Provides insights on cost-saving opportunities across operations.",
+                "datapoint": [
+                  "Cost-saving potential",
+                  "Efficiency gain",
+                  "Budget impact analysis",
+                  "Expense reduction forecasts"
+                ]
+              },
+              {
+                "icon": "faBusinessTime",
+                "title": "Productivity Metrics",
+                "description": "Monitors productivity KPIs across departments for targeted improvements.",
+                "datapoint": [
+                  "Productivity per team",
+                  "Task completion times",
+                  "Resource utilization"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Product Performance Tracking",
+            "problem": "Limited insights into product performance across different markets, affecting strategic decision-making.",
+            "solution": "Bicycle leverages AI to track product performance, customer feedback, and market trends, identifying underperforming products and areas for improvement.",
+            "screenshots": [
+              {
+                "icon": "faBoxOpen",
+                "title": "Product Dashboard",
+                "description": "Aggregates product performance data across regions.",
+                "datapoint": [
+                  "Sales by region",
+                  "Customer feedback trends",
+                  "Return rates"
+                ]
+              },
+              {
+                "icon": "faChartArea",
+                "title": "Trend Analysis",
+                "description": "Tracks demand fluctuations and predicts future performance.",
+                "datapoint": [
+                  "Demand trendline",
+                  "Growth opportunities",
+                  "Product improvement recommendations"
+                ]
+              },
+              {
+                "icon": "faGlobe",
+                "title": "Market Insights",
+                "description": "Compares product performance against market benchmarks and competitor analysis.",
+                "datapoint": [
+                  "Market share",
+                  "Competitive product ratings",
+                  "Regional demand patterns"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Risk and Compliance Management",
+            "problem": "Difficulty in managing regulatory compliance across various regions, leading to potential legal risks.",
+            "solution": "Bicycle provides AI-driven alerts for compliance risks and suggests actions to mitigate regulatory issues based on data trends.",
+            "screenshots": [
+              {
+                "icon": "faShieldAlt",
+                "title": "Compliance Dashboard",
+                "description": "Monitors regulatory compliance metrics across business units.",
+                "datapoint": [
+                  "Compliance status",
+                  "Risk alerts",
+                  "Pending issues"
+                ]
+              },
+              {
+                "icon": "faExclamationTriangle",
+                "title": "Risk Mitigation Insights",
+                "description": "Recommends actions based on identified risk factors.",
+                "datapoint": [
+                  "Mitigation strategies",
+                  "Risk reduction potential",
+                  "Compliance improvement"
+                ]
+              },
+              {
+                "icon": "faUniversity",
+                "title": "Regulatory Update Tracker",
+                "description": "Tracks changes in regulatory requirements and highlights areas of non-compliance.",
+                "datapoint": [
+                  "New compliance rules",
+                  "Affected operations",
+                  "Urgency indicators"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "features": {
+      "heading": "Key Features Tailored for Success",
+      "description": "Explore Bicycle's powerful features designed to enhance operational efficiency and drive growth. From seamless integrations to real-time analytics, each tool transforms data into actionable insights, empowering businesses to make informed decisions and boost performance.",
+      "pillars": [
+        {
+          "title": "Auto Onboarding",
+          "feature": [
+            {
+              "title": "1-click data onboarding",
+              "description": "Ingest data seamlessly with hundreds of integrations. Bicycle’s LLM-powered engine auto-discovers relationships using built-in industry context.",
+              "screenshot": {
+                "icon": "faDatabase",
+                "title": "Data Onboarding Screenshot",
+                "description": "A preview showing seamless data onboarding with Bicycle.",
+                "datapoint": [
+                  "100+ integrations",
+                  "LLM-powered relationship discovery",
+                  "Industry-specific insights"
+                ]
+              }
+            },
+            {
+              "title": "Use-case Sharing",
+              "description": "Easily share tailored use-case configurations across teams for faster deployment.",
+              "screenshot": {
+                "icon": "faShareAlt",
+                "title": "Use-case Sharing Screenshot",
+                "description": "An example of how teams can collaborate on use-case sharing.",
+                "datapoint": [
+                  "Cross-team collaboration",
+                  "Faster deployment",
+                  "Customizable templates"
+                ]
+              }
+            },
+            {
+              "title": "Business Insights for All",
+              "description": "Deliver actionable insights to stakeholders across all levels of the organization.",
+              "screenshot": {
+                "icon": "faChartLine",
+                "title": "Insights Dashboard Screenshot",
+                "description": "A visual representation of key business insights.",
+                "datapoint": [
+                  "Real-time dashboards",
+                  "Role-based access",
+                  "Data-driven decisions"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Seamless Integrations",
+          "feature": [
+            {
+              "title": "Pre-built Connectors",
+              "description": "Access pre-built connectors for a wide range of third-party tools.",
+              "screenshot": {
+                "icon": "faPlug",
+                "title": "Integration Connectors Screenshot",
+                "description": "A demonstration of available pre-built connectors.",
+                "datapoint": [
+                  "50+ pre-built connectors",
+                  "API integrations",
+                  "Plug-and-play setup"
+                ]
+              }
+            },
+            {
+              "title": "Custom Integration Options",
+              "description": "Leverage APIs for building custom integrations suited to unique workflows.",
+              "screenshot": {
+                "icon": "faCogs",
+                "title": "Custom Integration Screenshot",
+                "description": "How custom workflows are created with API support.",
+                "datapoint": [
+                  "Developer-friendly APIs",
+                  "Secure data handling",
+                  "Custom workflow automation"
+                ]
+              }
+            },
+            {
+              "title": "Continuous Sync",
+              "description": "Keep your data synchronized in real time across platforms.",
+              "screenshot": {
+                "icon": "faSyncAlt",
+                "title": "Syncing in Action Screenshot",
+                "description": "An overview of real-time syncing capabilities.",
+                "datapoint": [
+                  "Real-time updates",
+                  "Cross-platform consistency",
+                  "Zero lag synchronization"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Advanced Analytics",
+          "feature": [
+            {
+              "title": "Predictive Analytics",
+              "description": "Utilize predictive models to anticipate trends and make proactive decisions.",
+              "screenshot": {
+                "icon": "faChartPie",
+                "title": "Predictive Analytics Screenshot",
+                "description": "Visualizations of trends and predictive insights.",
+                "datapoint": [
+                  "AI-powered models",
+                  "Trend forecasting",
+                  "Proactive decision-making"
+                ]
+              }
+            },
+            {
+              "title": "Customizable Dashboards",
+              "description": "Design dashboards that fit your business needs and preferences.",
+              "screenshot": {
+                "icon": "faThLarge",
+                "title": "Custom Dashboards Screenshot",
+                "description": "Examples of customizable dashboard views.",
+                "datapoint": [
+                  "Drag-and-drop interface",
+                  "Multiple data sources",
+                  "Personalized views"
+                ]
+              }
+            },
+            {
+              "title": "Real-time Alerts",
+              "description": "Receive instant alerts for key metrics and anomalies.",
+              "screenshot": {
+                "icon": "faBell",
+                "title": "Real-time Alerts Screenshot",
+                "description": "An example of real-time alerting in action.",
+                "datapoint": [
+                  "Customizable thresholds",
+                  "Instant notifications",
+                  "Critical issue flagging"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Fintech": {
+    "title": {
+      "heading": "Bicycle for Fintech",
+      "description": "Unlock new possibilities in payments, banking, and investments with Bicycle's AI-driven insights tailored for fintech.",
+      "heroimage": "assets/verticals/fintech.svg"
+    },
+    "usecase": {
+      "intro": {
+        "heading": "Addressing Fintech-Specific Challenges",
+        "subheading": "In the fast-evolving world of fintech, challenges like fraud detection, compliance, and personalization can hinder growth. Common hurdles include:",
+        "examples": [
+          {
+            "title": "Fraud Prevention",
+            "description": "Identifying fraudulent transactions in real-time across millions of transactions.",
+            "icon": "faShieldAlt"
+          },
+          {
+            "title": "Regulatory Compliance",
+            "description": "Adapting to rapidly changing regulatory landscapes in multiple regions.",
+            "icon": "faUniversity"
+          },
+          {
+            "title": "Personalized Services",
+            "description": "Delivering tailored financial products to customers in real-time.",
+            "icon": "faUser"
+          }
+        ]
+      },
+      "main": {
+        "heading": "How Bicycle Empowers Fintech",
+        "subheading": "Bicycle's AI tools provide real-time insights for fraud detection, compliance monitoring, and customer experience enhancement.",
+        "data": [
+          {
+            "title": "Real-Time Fraud Detection",
+            "problem": "Difficulty identifying fraudulent patterns amidst high transaction volumes.",
+            "solution": "Bicycle uses predictive models to flag suspicious transactions before they are processed.",
+            "screenshots": [
+              {
+                "icon": "faExclamationTriangle",
+                "title": "Fraud Detection Dashboard",
+                "description": "Real-time monitoring of high-risk transactions.",
+                "datapoint": [
+                  "Risk levels",
+                  "Blocked transactions",
+                  "Fraud prevention accuracy"
+                ]
+              },
+              {
+                "icon": "faChartPie",
+                "title": "Fraud Trends Analysis",
+                "description": "Shows trends in fraudulent activity over time.",
+                "datapoint": [
+                  "Fraud trends",
+                  "High-risk patterns",
+                  "Mitigation strategies"
+                ]
+              },
+              {
+                "icon": "faEye",
+                "title": "Suspicious Activity Alerts",
+                "description": "Real-time alerts for suspicious activities.",
+                "datapoint": [
+                  "Alert types",
+                  "Response time",
+                  "Alert success rate"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Compliance Monitoring",
+            "problem": "Staying updated with changing regulations across multiple regions.",
+            "solution": "Bicycle tracks compliance metrics and provides actionable recommendations.",
+            "screenshots": [
+              {
+                "icon": "faUniversity",
+                "title": "Compliance Dashboard",
+                "description": "Monitors regulatory compliance in real-time.",
+                "datapoint": [
+                  "Compliance status",
+                  "Alerts for non-compliance",
+                  "Audit reports"
+                ]
+              },
+              {
+                "icon": "faBalanceScale",
+                "title": "Legal Compliance Insights",
+                "description": "Tracks compliance with regional regulations.",
+                "datapoint": [
+                  "Risk metrics",
+                  "Pending compliance tasks",
+                  "Regulation updates"
+                ]
+              },
+              {
+                "icon": "faFileSignature",
+                "title": "Policy Documentation",
+                "description": "Provides detailed compliance policies.",
+                "datapoint": [
+                  "Policy coverage",
+                  "Document statuses",
+                  "Last updated"
+                ]
+              }
+            ]
+          }
+        ],
+        "business": [
+          {
+            "title": "Operational Efficiency",
+            "problem": "High operational costs due to inefficient processes.",
+            "solution": "Bicycle identifies bottlenecks and recommends process improvements.",
+            "screenshots": [
+              {
+                "icon": "faChartLine",
+                "title": "Efficiency Metrics Dashboard",
+                "description": "Visualizes operational bottlenecks and improvements.",
+                "datapoint": [
+                  "Process delays",
+                  "Cost savings",
+                  "Optimization suggestions"
+                ]
+              },
+              {
+                "icon": "faCogs",
+                "title": "Process Automation Insights",
+                "description": "Analyzes automation potential in workflows.",
+                "datapoint": [
+                  "Automation readiness",
+                  "Efficiency gain",
+                  "Time savings"
+                ]
+              },
+              {
+                "icon": "faLightbulb",
+                "title": "Innovation Opportunities",
+                "description": "Highlights areas for business innovation.",
+                "datapoint": [
+                  "Innovation metrics",
+                  "Revenue potential",
+                  "Market trends"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Customer Retention",
+            "problem": "Struggling to engage existing customers effectively.",
+            "solution": "Bicycle provides insights into customer behavior to improve retention strategies.",
+            "screenshots": [
+              {
+                "icon": "faHeart",
+                "title": "Retention Dashboard",
+                "description": "Monitors customer retention rates.",
+                "datapoint": [
+                  "Retention rate",
+                  "Churn rate",
+                  "Retention strategies"
+                ]
+              },
+              {
+                "icon": "faChartBar",
+                "title": "Customer Feedback Insights",
+                "description": "Analyzes feedback to address pain points.",
+                "datapoint": [
+                  "Feedback scores",
+                  "Negative trends",
+                  "Improvement actions"
+                ]
+              },
+              {
+                "icon": "faHandshake",
+                "title": "Loyalty Program Performance",
+                "description": "Tracks the effectiveness of loyalty programs.",
+                "datapoint": [
+                  "Program reach",
+                  "Participation rate",
+                  "Impact on retention"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "features": {
+      "heading": "Key Features Tailored for Fintech",
+      "description": "Discover how Bicycle can optimize your fintech operations with advanced analytics and AI-driven solutions.",
+      "pillars": [
+        {
+          "title": "Fraud Detection",
+          "feature": [
+            {
+              "title": "Real-Time Monitoring",
+              "description": "Monitor transactions for fraud in real-time with AI-driven alerts.",
+              "screenshot": {
+                "icon": "faEye",
+                "title": "Fraud Monitoring Dashboard",
+                "description": "Shows flagged transactions and their risk levels.",
+                "datapoint": [
+                  "Flagged transactions",
+                  "Fraud scores",
+                  "Real-time updates"
+                ]
+              }
+            },
+            {
+              "title": "Pattern Recognition",
+              "description": "Leverages AI to detect fraud patterns across historical data.",
+              "screenshot": {
+                "icon": "faChartPie",
+                "title": "Pattern Analysis Dashboard",
+                "description": "Displays fraud patterns and trends.",
+                "datapoint": [
+                  "High-risk periods",
+                  "Repeat offenders",
+                  "Pattern severity"
+                ]
+              }
+            },
+            {
+              "title": "Proactive Alerts",
+              "description": "Sends early warnings for potential risks.",
+              "screenshot": {
+                "icon": "faBell",
+                "title": "Alert Notification Dashboard",
+                "description": "Real-time alerting system.",
+                "datapoint": [
+                  "Alerts triggered",
+                  "Average response time",
+                  "Alert accuracy"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Compliance Monitoring",
+          "feature": [
+            {
+              "title": "Policy Adherence",
+              "description": "Monitors adherence to internal and external compliance policies.",
+              "screenshot": {
+                "icon": "faBalanceScale",
+                "title": "Policy Adherence Dashboard",
+                "description": "Visualizes compliance metrics across regions.",
+                "datapoint": [
+                  "Policy adherence rates",
+                  "Risk mitigation insights",
+                  "Audit-ready reports"
+                ]
+              }
+            },
+            {
+              "title": "Regulatory Updates",
+              "description": "Provides alerts and analysis for upcoming regulatory changes.",
+              "screenshot": {
+                "icon": "faExclamationCircle",
+                "title": "Regulatory Updates Dashboard",
+                "description": "Tracks new regulations and their potential impact.",
+                "datapoint": [
+                  "New regulation alerts",
+                  "Affected areas",
+                  "Compliance deadlines"
+                ]
+              }
+            },
+            {
+              "title": "Audit Assistance",
+              "description": "Generates detailed compliance reports for audit purposes.",
+              "screenshot": {
+                "icon": "faFileAlt",
+                "title": "Audit Report Generator",
+                "description": "Automates audit report creation.",
+                "datapoint": [
+                  "Report templates",
+                  "Compliance summaries",
+                  "Export formats"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Operational Efficiency",
+          "feature": [
+            {
+              "title": "Workflow Optimization",
+              "description": "Identifies inefficiencies in workflows and suggests improvements.",
+              "screenshot": {
+                "icon": "faCogs",
+                "title": "Workflow Optimization Insights",
+                "description": "Highlights areas for improving operational efficiency.",
+                "datapoint": [
+                  "Bottleneck detection",
+                  "Suggested optimizations",
+                  "Time savings"
+                ]
+              }
+            },
+            {
+              "title": "Resource Allocation",
+              "description": "Optimizes resource allocation based on workload and demand.",
+              "screenshot": {
+                "icon": "faChartLine",
+                "title": "Resource Allocation Dashboard",
+                "description": "Tracks resource usage and efficiency.",
+                "datapoint": [
+                  "Resource utilization",
+                  "Over-allocated areas",
+                  "Efficiency improvements"
+                ]
+              }
+            },
+            {
+              "title": "Process Automation",
+              "description": "Automates repetitive processes to reduce manual workload.",
+              "screenshot": {
+                "icon": "faRobot",
+                "title": "Process Automation Dashboard",
+                "description": "Tracks automation progress and results.",
+                "datapoint": [
+                  "Processes automated",
+                  "Time saved",
+                  "Error reduction rates"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+
+  "Retail": {
+    "title": {
+      "heading": "Bicycle for Retail",
+      "description": "Revolutionize your retail operations with Bicycle's real-time insights and AI-driven decision-making tools.",
+      "heroimage": "assets/verticals/retail.svg"
+    },
+    "usecase": {
+      "intro": {
+        "heading": "Challenges in Retail",
+        "subheading": "Retailers face challenges in inventory management, customer engagement, and supply chain optimization. Common hurdles include:",
+        "examples": [
+          {
+            "title": "Stockouts",
+            "description": "Missed sales opportunities due to low stock levels.",
+            "icon": "faBoxes"
+          },
+          {
+            "title": "Customer Retention",
+            "description": "Difficulty in understanding and responding to customer preferences.",
+            "icon": "faUsers"
+          },
+          {
+            "title": "Supply Chain Delays",
+            "description": "Inefficiencies in supply chain management lead to delayed deliveries.",
+            "icon": "faTruck"
+          }
+        ]
+      },
+      "main": {
+        "heading": "How Bicycle Empowers Retail",
+        "subheading": "Bicycle optimizes retail operations, enhances customer engagement, and streamlines inventory management.",
+        "data": [
+          {
+            "title": "Inventory Optimization",
+            "problem": "Stock imbalances lead to overstocking or stockouts.",
+            "solution": "Bicycle provides predictive restocking insights based on historical data.",
+            "screenshots": [
+              {
+                "icon": "faChartLine",
+                "title": "Inventory Insights",
+                "description": "Real-time inventory tracking and predictions.",
+                "datapoint": [
+                  "Low stock alerts",
+                  "Predictive restocking",
+                  "Stock trends"
+                ]
+              },
+              {
+                "icon": "faCogs",
+                "title": "Stock Forecasting",
+                "description": "Analyzes historical trends for accurate restocking.",
+                "datapoint": [
+                  "Weekly stock forecasts",
+                  "Demand peaks",
+                  "Overstock alerts"
+                ]
+              },
+              {
+                "icon": "faSyncAlt",
+                "title": "Real-Time Updates",
+                "description": "Automatically syncs inventory data across all systems.",
+                "datapoint": [
+                  "Warehouse updates",
+                  "Point-of-sale integrations",
+                  "System notifications"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Customer Engagement",
+            "problem": "Retailers struggle to personalize the customer experience.",
+            "solution": "Bicycle analyzes customer preferences and feedback for tailored engagement strategies.",
+            "screenshots": [
+              {
+                "icon": "faUserCircle",
+                "title": "Customer Profiles",
+                "description": "Builds detailed profiles of customer preferences.",
+                "datapoint": [
+                  "Purchase history",
+                  "Engagement trends",
+                  "Satisfaction scores"
+                ]
+              },
+              {
+                "icon": "faComments",
+                "title": "Feedback Analysis",
+                "description": "Highlights common pain points and improvement areas.",
+                "datapoint": [
+                  "Customer sentiment analysis",
+                  "Top feedback themes",
+                  "Resolved issues"
+                ]
+              },
+              {
+                "icon": "faChartBar",
+                "title": "Engagement Metrics",
+                "description": "Tracks the effectiveness of engagement strategies.",
+                "datapoint": [
+                  "Campaign conversion rates",
+                  "Customer loyalty scores",
+                  "Retention metrics"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Supply Chain Optimization",
+            "problem": "Lack of visibility across the supply chain leads to inefficiencies.",
+            "solution": "Bicycle provides end-to-end supply chain monitoring and predictive analytics.",
+            "screenshots": [
+              {
+                "icon": "faTruck",
+                "title": "Delivery Tracking",
+                "description": "Real-time visibility into shipments.",
+                "datapoint": [
+                  "On-time delivery rates",
+                  "Delayed shipments",
+                  "Delivery route optimizations"
+                ]
+              },
+              {
+                "icon": "faWarehouse",
+                "title": "Warehouse Metrics",
+                "description": "Monitors warehouse performance and stock levels.",
+                "datapoint": [
+                  "Storage efficiency",
+                  "Stock turnover rates",
+                  "Fulfillment speeds"
+                ]
+              },
+              {
+                "icon": "faMapMarkerAlt",
+                "title": "Supply Chain Analytics",
+                "description": "Analyzes supply chain trends for better planning.",
+                "datapoint": [
+                  "Lead times",
+                  "Supplier performance",
+                  "Demand spikes"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "features": {
+      "heading": "Key Features Tailored for Retail",
+      "description": "Explore Bicycle's cutting-edge tools to transform retail operations, streamline inventory, and boost customer satisfaction.",
+      "pillars": [
+        {
+          "title": "Inventory Management",
+          "feature": [
+            {
+              "title": "Predictive Restocking",
+              "description": "Uses AI to forecast restocking needs.",
+              "screenshot": {
+                "icon": "faSyncAlt",
+                "title": "Predictive Restocking",
+                "description": "Insights for maintaining optimal stock levels.",
+                "datapoint": [
+                  "Predicted stockouts",
+                  "Reorder recommendations",
+                  "Demand forecasts"
+                ]
+              }
+            },
+            {
+              "title": "Real-Time Tracking",
+              "description": "Provides live updates on inventory changes.",
+              "screenshot": {
+                "icon": "faCogs",
+                "title": "Real-Time Inventory",
+                "description": "Tracks inventory movements in real-time.",
+                "datapoint": [
+                  "Updated stock counts",
+                  "Warehouse visibility",
+                  "Supply chain updates"
+                ]
+              }
+            },
+            {
+              "title": "Automated Alerts",
+              "description": "Notifies teams of critical inventory issues.",
+              "screenshot": {
+                "icon": "faBell",
+                "title": "Automated Alerts",
+                "description": "Instant notifications for inventory issues.",
+                "datapoint": [
+                  "Stockout alerts",
+                  "Overstock warnings",
+                  "Replenishment reminders"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Customer Insights",
+          "feature": [
+            {
+              "title": "Personalized Recommendations",
+              "description": "Tailors product recommendations based on customer behavior.",
+              "screenshot": {
+                "icon": "faGift",
+                "title": "Product Recommendations",
+                "description": "Displays AI-powered product suggestions.",
+                "datapoint": [
+                  "Personalized recommendations",
+                  "Purchase likelihood",
+                  "Customer preferences"
+                ]
+              }
+            },
+            {
+              "title": "Behavioral Analytics",
+              "description": "Tracks customer actions to identify trends.",
+              "screenshot": {
+                "icon": "faChartPie",
+                "title": "Behavioral Insights",
+                "description": "Analytics of customer actions and patterns.",
+                "datapoint": [
+                  "Purchase frequency",
+                  "Popular products",
+                  "Drop-off points"
+                ]
+              }
+            },
+            {
+              "title": "Satisfaction Metrics",
+              "description": "Measures and improves customer satisfaction.",
+              "screenshot": {
+                "icon": "faSmile",
+                "title": "Satisfaction Dashboard",
+                "description": "Tracks satisfaction scores over time.",
+                "datapoint": [
+                  "Customer satisfaction trends",
+                  "Feedback sentiment",
+                  "Resolved complaints"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Operational Excellence",
+          "feature": [
+            {
+              "title": "Process Automation",
+              "description": "Automates routine retail processes.",
+              "screenshot": {
+                "icon": "faRobot",
+                "title": "Process Automation",
+                "description": "Automates manual workflows.",
+                "datapoint": ["Time saved", "Error reduction", "Cost savings"]
+              }
+            },
+            {
+              "title": "Real-Time Analytics",
+              "description": "Provides actionable insights in real-time.",
+              "screenshot": {
+                "icon": "faChartBar",
+                "title": "Real-Time Analytics",
+                "description": "Displays live analytics.",
+                "datapoint": [
+                  "Key performance indicators",
+                  "Actionable insights",
+                  "Data accuracy"
+                ]
+              }
+            },
+            {
+              "title": "Resource Allocation",
+              "description": "Optimizes the use of resources.",
+              "screenshot": {
+                "icon": "faBalanceScale",
+                "title": "Resource Allocation",
+                "description": "Balances workloads effectively.",
+                "datapoint": [
+                  "Resource utilization",
+                  "Performance metrics",
+                  "Optimization suggestions"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "Others": {
+    "title": {
+      "heading": "Bicycle for Emerging Industries",
+      "description": "Bicycle’s adaptable analytics platform empowers industries like logistics, telecom, SaaS, and more with actionable insights.",
+      "heroimage": "assets/verticals/others.svg"
+    },
+    "usecase": {
+      "intro": {
+        "heading": "Solving Unique Challenges",
+        "subheading": "Each industry brings its own set of challenges, from managing complex supply chains to ensuring seamless customer experiences. Common hurdles include:",
+        "examples": [
+          {
+            "title": "Supply Chain Visibility",
+            "description": "Inconsistent tracking of goods across the supply chain can lead to delays and inefficiencies.",
+            "icon": "faTruck"
+          },
+          {
+            "title": "Customer Support Bottlenecks",
+            "description": "Handling large volumes of customer queries effectively and quickly.",
+            "icon": "faHeadset"
+          },
+          {
+            "title": "Data Integration",
+            "description": "Integrating data from various sources into a unified platform.",
+            "icon": "faPlug"
+          }
+        ]
+      },
+      "main": {
+        "heading": "How Bicycle Empowers Emerging Industries",
+        "subheading": "Bicycle adapts to diverse industries with flexible analytics and AI-driven insights to overcome unique challenges.",
+        "data": [
+          {
+            "title": "Supply Chain Optimization",
+            "problem": "Lack of real-time tracking causes inefficiencies and delays in deliveries.",
+            "solution": "Bicycle provides end-to-end supply chain visibility with predictive analytics to prevent delays.",
+            "screenshots": [
+              {
+                "icon": "faMapMarkerAlt",
+                "title": "Real-Time Tracking",
+                "description": "Monitor shipment locations and delivery schedules in real-time.",
+                "datapoint": [
+                  "Live shipment updates",
+                  "Delivery schedule adherence",
+                  "Delay predictions"
+                ]
+              },
+              {
+                "icon": "faChartLine",
+                "title": "Supply Chain Trends",
+                "description": "Analyze past data to predict and address future challenges.",
+                "datapoint": [
+                  "Trend analysis",
+                  "Risk identification",
+                  "Performance benchmarks"
+                ]
+              },
+              {
+                "icon": "faWarehouse",
+                "title": "Warehouse Metrics",
+                "description": "Real-time insights into warehouse performance.",
+                "datapoint": [
+                  "Inventory status",
+                  "Stock turnover",
+                  "Fulfillment rates"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Customer Experience Enhancement",
+            "problem": "Slow query resolution leads to dissatisfaction and churn.",
+            "solution": "Bicycle uses AI to streamline query handling and improve customer satisfaction.",
+            "screenshots": [
+              {
+                "icon": "faHeadset",
+                "title": "Customer Support Dashboard",
+                "description": "Monitor query resolution times and customer sentiment.",
+                "datapoint": [
+                  "Average response time",
+                  "Customer satisfaction scores",
+                  "Issue resolution rates"
+                ]
+              },
+              {
+                "icon": "faComments",
+                "title": "Feedback Analysis",
+                "description": "Analyzes feedback to improve customer experience.",
+                "datapoint": [
+                  "Sentiment trends",
+                  "Key pain points",
+                  "Resolution rates"
+                ]
+              },
+              {
+                "icon": "faGrin",
+                "title": "Customer Satisfaction Metrics",
+                "description": "Tracks overall satisfaction and retention metrics.",
+                "datapoint": [
+                  "Net Promoter Score",
+                  "Churn rates",
+                  "Customer loyalty"
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Operational Efficiency",
+            "problem": "Inefficiencies increase costs and affect productivity.",
+            "solution": "Bicycle identifies bottlenecks and suggests improvements for streamlined operations.",
+            "screenshots": [
+              {
+                "icon": "faCogs",
+                "title": "Process Optimization",
+                "description": "Visualizes inefficiencies in operations.",
+                "datapoint": [
+                  "Bottleneck detection",
+                  "Efficiency metrics",
+                  "Improvement suggestions"
+                ]
+              },
+              {
+                "icon": "faDollarSign",
+                "title": "Cost Analysis",
+                "description": "Tracks costs to identify savings opportunities.",
+                "datapoint": [
+                  "Expense breakdowns",
+                  "Savings potential",
+                  "Budget forecasts"
+                ]
+              },
+              {
+                "icon": "faChartPie",
+                "title": "Resource Allocation",
+                "description": "Analyzes resource usage to improve allocation.",
+                "datapoint": [
+                  "Utilization rates",
+                  "Resource effectiveness",
+                  "Performance optimization"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "features": {
+      "heading": "Key Features Tailored for Emerging Industries",
+      "description": "Bicycle provides a robust set of features to help emerging industries overcome their unique challenges.",
+      "pillars": [
+        {
+          "title": "Custom Integrations",
+          "feature": [
+            {
+              "title": "Flexible APIs",
+              "description": "Create custom workflows with Bicycle’s developer-friendly APIs.",
+              "screenshot": {
+                "icon": "faPlug",
+                "title": "API Integration",
+                "description": "A demonstration of custom API workflows.",
+                "datapoint": [
+                  "Custom workflows",
+                  "Seamless integrations",
+                  "Developer-friendly tools"
+                ]
+              }
+            },
+            {
+              "title": "Pre-built Connectors",
+              "description": "Access pre-built connectors for faster integration.",
+              "screenshot": {
+                "icon": "faCogs",
+                "title": "Integration Tools",
+                "description": "Leverages existing integrations for ease.",
+                "datapoint": [
+                  "50+ connectors",
+                  "Plug-and-play setup",
+                  "Seamless workflow"
+                ]
+              }
+            },
+            {
+              "title": "Real-Time Sync",
+              "description": "Keeps data synchronized across platforms.",
+              "screenshot": {
+                "icon": "faSyncAlt",
+                "title": "Synchronization Tools",
+                "description": "Ensures data consistency across systems.",
+                "datapoint": [
+                  "Cross-platform sync",
+                  "Zero lag updates",
+                  "Real-time data"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Advanced Analytics",
+          "feature": [
+            {
+              "title": "Predictive Insights",
+              "description": "Leverage AI to forecast trends and improve decision-making.",
+              "screenshot": {
+                "icon": "faChartLine",
+                "title": "Predictive Analytics",
+                "description": "AI-driven insights to identify future risks and opportunities.",
+                "datapoint": [
+                  "Forecast accuracy",
+                  "Trend predictions",
+                  "Decision-making support"
+                ]
+              }
+            },
+            {
+              "title": "Custom Dashboards",
+              "description": "Design dashboards tailored to business needs.",
+              "screenshot": {
+                "icon": "faThLarge",
+                "title": "Custom Dashboards",
+                "description": "User-friendly dashboards for insights.",
+                "datapoint": [
+                  "Drag-and-drop features",
+                  "Multiple views",
+                  "Personalized metrics"
+                ]
+              }
+            },
+            {
+              "title": "Real-Time Alerts",
+              "description": "Receive notifications for anomalies and metrics.",
+              "screenshot": {
+                "icon": "faBell",
+                "title": "Alert Systems",
+                "description": "Instant alerts for real-time monitoring.",
+                "datapoint": [
+                  "Threshold notifications",
+                  "Critical event alerts",
+                  "Proactive monitoring"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "title": "Operational Excellence",
+          "feature": [
+            {
+              "title": "Process Automation",
+              "description": "Automates manual processes for efficiency.",
+              "screenshot": {
+                "icon": "faRobot",
+                "title": "Automation Tools",
+                "description": "Automates workflows for speed and accuracy.",
+                "datapoint": [
+                  "Time saved",
+                  "Reduced errors",
+                  "Improved accuracy"
+                ]
+              }
+            },
+            {
+              "title": "Resource Allocation",
+              "description": "Optimizes resources for better productivity.",
+              "screenshot": {
+                "icon": "faBalanceScale",
+                "title": "Resource Management",
+                "description": "Ensures efficient use of resources.",
+                "datapoint": [
+                  "Resource utilization",
+                  "Performance improvements",
+                  "Optimization results"
+                ]
+              }
+            },
+            {
+              "title": "Scalability Insights",
+              "description": "Provides analytics to support growth.",
+              "screenshot": {
+                "icon": "faExpand",
+                "title": "Scalability Tools",
+                "description": "Insights for managing scaling challenges.",
+                "datapoint": [
+                  "Growth predictions",
+                  "Resource planning",
+                  "Risk assessments"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
