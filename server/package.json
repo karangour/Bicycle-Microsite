@@ -7,10 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
     "build-client": "cd ../client && npm install && npm run build",
-     "postinstall": "npm run build-client"
-
-
-
+    "postinstall": "npm --prefix ../client install && npm --prefix ../client run build"
   },
   "keywords": [],
   "author": "",
