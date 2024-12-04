@@ -7,13 +7,10 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
 dist
 dist-ssr
 *.local
 .env
-node_modules/
-build/
 
 # Editor directories and files
 .vscode/*
@@ -25,3 +22,7 @@ build/
 *.njsproj
 *.sln
 *.sw?
+
+# Exclude node_modules but not build artifacts
+node_modules/
+
