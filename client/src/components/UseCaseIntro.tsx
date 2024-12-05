@@ -19,7 +19,7 @@ const UseCaseIntro: React.FC<UseCaseIntroProps> = ({ verticalData }) => {
   };
   
   return (
-    <div className="relative w-[1234px] h-[459px] mx-auto mt-[200px]">
+    <div className="relative w-[1234px] h-auto mx-auto mt-[200px]">
       <div className="flex flex-col items-center space-y-16">
         <div className="flex flex-col items-center space-y-4 text-center w-[1000px]">
           <h2 className="text-text-black text-[2.5rem] font-bold font-title">

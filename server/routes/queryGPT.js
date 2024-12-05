@@ -2,24 +2,26 @@ const queryGPT_part1 = (email) => `
 
 Bicycle is an analytics co-pilot that simplifies data preparation, insight generation, and consumption. It integrates data from streaming platforms, warehouses, databases, APIs, and knowledge bases like wikis and dashboards, handling fragmented, unclean data without requiring prior centralization. Using AutoML, it baselines KPIs, detects anomalies, and explains patterns with LLMs, validating causes via data queries. Insights are delivered through dashboards, chat queries, alerts, reports, or automated actions, enabling faster, informed decisions with minimal technical effort.
 
-Now, analyze the email '${email}' based on the context provided above and fill up the following JSON.
+Now, analyze the email '${email}' based on the context provided above and fill up the following JSON. Make sure you extract the 'organization name' and use it where necessary.
 
 IMPORTANT:
-Use the organization's name as much as you can in titles/headings and descriptions to increase customization.
-It is mandatory to use the organization name in vertical.title.heading.
+Use the organization in vertical.title.heading.
+It is mandatory to use Bicycle's name in vertical.title.description.
+
 
 {
   "organization": "{organization name}",
   "vertical": "{only pick between travel, fintech, retail, or others. Do not make any new verticals.}",
   "add the 'vertical' as key": {
     "title": {
-      "heading": "{Vertical-specific heading}", // Word count: 6
+      "heading": "{Organization and Vertical specific heading}", // Word count: 6
       "description": "{Brief vertical focus description}",  // Word count: 18
-      "heroimage": "assets/verticals/{vertical}.svg" // 
+      "heroimage": "assets/verticals/{vertical}.svg"
     },
 }
 
-IMPORTANT: Return only the JSON response.`;
+IMPORTANT: Return only the JSON response. Use clear JSON only. Do not include any Markdown, backticks, or extra formatting.
+Ensure the JSON is valid and can be parsed directly.`;
 
 const queryGPT_part2 = (org, vertical) => `
 Bicycle is an analytics co-pilot that simplifies data preparation, insight generation, and consumption. It integrates data from streaming platforms, warehouses, databases, APIs, and knowledge bases like wikis and dashboards, handling fragmented, unclean data without requiring prior centralization. Using AutoML, it baselines KPIs, detects anomalies, and explains patterns with LLMs, validating causes via data queries. Insights are delivered through dashboards, chat queries, alerts, reports, or automated actions, enabling faster, informed decisions with minimal technical effort.
@@ -56,6 +58,8 @@ IMPORTANT -
 6. Follow the JSON format strictly:
    - Use correct word counts and structure as outlined below.
    - Icons must follow the "faIcon" format.
+
+   7. For usecase.intro, provide either three or four examples in total.
 
    Use Cases for Data Teams
 1) Automated Data Integration
@@ -153,7 +157,7 @@ Return only the JSON response in the following format:
           "description": "{Challenge Description (20 words)}",
           "icon": "{Relevant faIcon}"
         },
-        "Two more examples with similar word counts."
+        "Two or three more examples with similar word counts."
       ]
     },
     "main": {
@@ -209,9 +213,9 @@ Return only the JSON response in the following format:
   }
 }
 
-IMPORTANT: Return only the JSON response.
+IMPORTANT: Return only the JSON response. Use clear JSON only. Do not include any Markdown, backticks, or extra formatting.
+Ensure the JSON is valid and can be parsed directly.
 `;
-
 
 const queryGPT_part3 = (org, vertical) => `
 
@@ -220,10 +224,9 @@ Bicycle is an analytics co-pilot that simplifies data preparation, insight gener
 Now, using the ${vertical}, alongwith the following features of each of the three pillars as a reference, create specific features for ${org}.
 
 IMPORTANT:
-Three should be three pillars in the JSON, and each pillar should have three features.
+Three should be three pillars in the JSON, and each pillar should have EXACTLY three features.
 Map "feature_map" to feature numbers (1-28) from the background.
-Map "screenshot_number" to the screenshot numbers for corresponding features. Include all relevant screenshots.
-Include all 28 features in "pillars." None should be omitted.
+Map "screenshot_number" to the screenshot numbers for corresponding features.
 Use only reference numbers from the background. Avoid new numbering.
 For 'icons', add them in the format 'faIcon'. As an example it should be 'faBulb' or 'faUser', not 'fa-bulb' or 'fa-user'.
 
@@ -348,6 +351,7 @@ Use: Focus on the Triage Causes screen to demonstrate detailed explanations for 
     }
 }
 
-IMPORTANT: Return only the JSON response.`;
+IMPORTANT: Return only the JSON response. Use clear JSON only. Do not include any Markdown, backticks, or extra formatting.
+Ensure the JSON is valid and can be parsed directly.`;
 
 module.exports = { queryGPT_part1, queryGPT_part2, queryGPT_part3 };
